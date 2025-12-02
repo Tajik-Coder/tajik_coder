@@ -14,24 +14,24 @@
 ```bash
 git clone https://github.com/Tajik_Coder/telegram-ai-bot.git
 cd telegram-ai-bot
-'''
+```
 2. Создайте виртуальное окружение и установите зависимости:
-'''bash
+```bash
 python -m venv venv
 source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows
 pip install -r requirements.txt
-'''
+```
 3. Создайте файл api_token.py с вашим токеном Telegram бота:
-'''bash
+```bash
 TOKEN = "ВАШ_ТОКЕН_ТЕЛЕГРАМ"
-'''
+```
 4. Запустите бота:
-'''bash
+```bash
 python bot.py
-'''
-Структура проекта:
-'''bash
+```
+5. Структура проекта:
+```bash
 telegram-ai-bot/
 │
 ├─ bot.py                # Основной файл бота
@@ -39,7 +39,7 @@ telegram-ai-bot/
 ├─ requirements.txt      # Зависимости
 ├─ chat_history.db       # Опциональная база данных
 └─ README.md             # Этот файл
-'''
+```
 
 
 
