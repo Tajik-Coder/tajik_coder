@@ -30,7 +30,6 @@ TOKEN = "ВАШ_ТОКЕН_ТЕЛЕГРАМ"
 '''bash
 python bot.py
 '''
-
 Структура проекта:
 '''bash
 telegram-ai-bot/
